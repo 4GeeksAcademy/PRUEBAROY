@@ -1,5 +1,21 @@
 @import "bootstrap/dist/css/bootstrap.min.css";
 
 body{
-    background: white;
+    
 }
+
+.linea-con-fondo {
+    
+    background-image: url('https://thumbs.dreamstime.com/b/doctora-sonriente-hablando-con-su-paciente-sentada-en-el-escritorio-de-consultorio-o-hospital-una-hembra-bata-blanca-laboratorio-231685007.jpg');
+    background-size:cover;
+   height:500px;
+    padding: 5px; /* Ajusta el espacio alrededor del texto */
+   
+}
+
+.roboto {
+    font-family: "Caveat", cursive;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+  }
