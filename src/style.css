@@ -4,3 +4,14 @@ body{
     
 }
 
+.rotation{
+
+    transform: rotate(0.5turn);
+}
+
+.tamaño{
+
+    height: 100px;
+    width: 151px;
+    
+}

@@ -271,20 +271,30 @@ console.log(Randomnize(Palos));
 
 const resultadoCarta = arr => {
     return arr[Randomnize(arr)]
+    
       }
       console.log(resultadoCarta(NumeroCartas))
       console.log(resultadoCarta(Palos))
 
-let simbolo = document.getElementById("simbolo");
+let simbolo = document.querySelector("#simbolo");
 let NumeroCarta = document.getElementById("NumeroCarta");
 let reset = document.getElementById("reset");
+let simbolo2 = document.getElementById("simbolo2")
 
 
 reset.addEventListener('click', (e)=>{
+
     
-  
+     simbolo.innerHTML == '♦'|| simbolo.innerHTML == '♥'? simbolo.style.color ="red": simbolo.style.color ="black"   
+    simbolo2.style.color = simbolo.style.color
+    NumeroCarta.style.color = simbolo.style.color
 
     NumeroCarta.innerHTML = resultadoCarta(NumeroCartas);
     simbolo.innerHTML = resultadoCarta(Palos);
+    
+   simbolo2.innerHTML = simbolo.innerHTML
+    
 
+
+    
 })
